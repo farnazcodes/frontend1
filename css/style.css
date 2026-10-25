@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    direction: rtl;
+}
+
+.login-container {
+    width: 350px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #ddd;
+}
+
+.login-container h1,
+.login-container p {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4834d4;
+}
+
+.sidebar {
+    width: 230px;
+    height: 100vh;
+    background-color: #2d3436;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.sidebar h2 {
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+
+.sidebar a:hover {
+    background-color: #636e72;
+}
+
+.sidebar button {
+    background-color: #d63031;
+}
+
+.main-content {
+    margin-right: 250px;
+    padding: 30px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    flex: 1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ddd;
+    text-align: center;
+}
+
+.card p {
+    font-size: 25px;
+    color: #6c5ce7;
+    font-weight: bold;
+}
